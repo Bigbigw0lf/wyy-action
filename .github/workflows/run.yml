@@ -24,13 +24,9 @@ jobs:
     - name: 签到
       run: |
         pip install -r requirements.txt
-        
-        userlist='15214326035'
-        pwd_liat='jingtao233'
-        
         do
         python3 checkin.py <<EOF
-        ${user_list[$i]}
-        ${pwd_list[$i]}
+        ${15214326035}
+        ${jingtao233}
         EOF
         done
